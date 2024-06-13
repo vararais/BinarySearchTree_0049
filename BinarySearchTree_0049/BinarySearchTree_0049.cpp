@@ -21,7 +21,7 @@ public:
     Node* ROOT;
 
     BinaryTree() {
-        ROOT = NULL;
+        ROOT = nullptr;
     }
 
     void insert(string element) {
