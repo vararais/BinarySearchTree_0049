@@ -25,13 +25,13 @@ public:
     }
 
     void insert(string element) {
-        Node* newNode = new Node(element, NULL, NULL);
+        Node* newNode = new Node(element, nullptr, nullptr);
         newNode->info = element;
-        newNode->leftchild = NULL;
-        newNode->rightchild = NULL;
+        newNode->leftchild = nullptr;
+        newNode->rightchild = nullptr;
 
-        Node* parent = NULL;
-        Node* currentNode = NULL;
+        Node* parent = nullptr;
+        Node* currentNode = nullptr;
         search(element, parent, currentNode);
     }
 };
